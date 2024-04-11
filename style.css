@@ -1,0 +1,221 @@
+@font-face {
+    font-family: Barlow;
+    src: url(font/Barlow-Bold.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: white;
+    background-size: cover;
+    padding-left: -10%;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+  
+}
+header {
+    margin-top: 100px;
+    font-family: Barlow;
+    transition: o.5s;
+    
+ 
+}
+
+header h1 {
+    margin-top: -1vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 92px;
+    letter-spacing: 3px;
+    text-shadow:  5px 10px 18px rgb(119, 119, 119);;
+   
+}
+.NATIVIDAD {
+    margin-top: -5vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-shadow:  5px 10px 18px rgb(119, 119, 119);;
+}
+header h4 {
+    margin-top: -4vh;
+    text-align: center;
+    color: rgb(254, 144, 10);
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.copyright {
+    text-align: center;
+    color: rgb(188, 184, 184);
+    font-family: Barlow;
+    font-size: 18px;
+    letter-spacing: 5px;
+ 
+}
+header img {
+    text-align: left;
+    margin-top: -1000vh;
+    display: none;
+
+
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding-left: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Barlow;
+    letter-spacing: 5px;
+}
+.column img {
+    border-radius: 15px 50px 30px; 
+    box-shadow: 5px 10px 18px rgb(119, 119, 119);
+    transition: 0.5s;
+
+
+}
+.column h4 {
+    color: rgb(254, 144, 10);;
+    margin-top: -3vh;
+    font-size: 10px;
+}
+.column img:hover {
+    width: 65%;
+}
+.column h2{
+    font-size: 20px;
+}
+.checked {
+    color: rgb(254, 144, 10);;
+
+  }
+.column button {
+    margin: 50px;
+    background-color: rgb(254, 144, 10);;
+    border-radius: 15px 50px 30px; 
+    color: rgb(0, 0, 0);
+    font-family: Barlow;
+    padding: 10px;
+    box-shadow: 5px 10px 18px rgb(119, 119, 119);
+    margin: 60px;
+   
+}
+.column button:hover {
+    color: white;
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+   
+}
+.row h1 span2 {
+    color: blue;
+}
+.row h1{
+    color: red;
+}
+
+.row h2 {
+    text-align: center;
+    color: black;
+    margin: 100px;
+    font-size: 20px;
+}
+
+.row h3 {
+    color: black;
+}
+
+@media screen and (max-width: 700px) 
+{
+    body{
+        background-image: url(img/palacep.jpg);
+        background-size: cover;
+        padding-left: -10%;
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+   
+    header h1 {
+        margin-top:-5vh;
+        color: rgb(255, 255, 255);
+        font-size: 35px;
+        letter-spacing: 3px;
+        text-shadow:  5px 10px 18px rgb(119, 119, 119);;
+       
+    }
+    .NATIVIDAD {
+        margin-top: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .column {
+        float: left;
+        width: 100%;
+        padding-left: 10px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-family: Barlow;
+        letter-spacing: 3px;
+    }
+   
+    
+    .column img {
+        border-radius: 15px 50px 30px; 
+        box-shadow: 5px 10px 18px rgb(119, 119, 119);
+        transition: 0.5s;
+        padding: 5px;
+    }
+    .section1 img {
+        width: 70%;
+        border-radius: 15px 50px 30px; 
+        box-shadow: 5px 10px 18px rgb(119, 119, 119);
+    }
+    .section1 p {
+        margin-left: 1cm;
+        margin-right: 1cm;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    header {
+        margin-top: 100px;
+        font-family: Barlow;
+        transition: o.5s;
+        text-shadow: 4px 3px 4px rgba(136, 136, 136, 1);
+     
+    }
+    header img {
+        display: none;
+    
+    
+}
+header h4 {
+    margin-top: -1vh;
+    text-align: center;
+    color: rgb(254, 144, 10);
+    font-size: 12px;
+    letter-spacing: 10px;
+}  
+.column h4 {
+    color: rgb(254, 144, 10);;
+    margin-top: -1vh;
+    font-size: 10px;
+}
+    }
+}
