@@ -14,7 +14,7 @@ body{
     background-color: white;
     background-size: cover;
     padding-left: -10%;
-    width: 100%;
+    width: 99%;
     height: 50vh;
     background-repeat: no-repeat;
   
@@ -33,7 +33,7 @@ header h1 {
     color: rgb(255, 255, 255);
     font-size: 92px;
     letter-spacing: 3px;
-    text-shadow:  5px 10px 18px rgb(119, 119, 119);;
+    
    
 }
 .NATIVIDAD {
@@ -42,7 +42,7 @@ header h1 {
     color: rgb(255, 255, 255);
     font-size: 30px;
     letter-spacing: 3px;
-    text-shadow:  5px 10px 18px rgb(119, 119, 119);;
+    
 }
 header h4 {
     margin-top: -4vh;
@@ -59,13 +59,18 @@ header h4 {
     letter-spacing: 5px;
  
 }
-header img {
-    text-align: left;
-    margin-top: -1000vh;
-    display: none;
-
-
+.logo-container {
+    text-align: center;
 }
+
+.logo-container img {
+    display: inline-block;
+    margin-top: -20px; /* Adjust this value as needed to center the image vertically */
+    max-width: 100%;
+    height: auto;
+    
+}
+
 
 
 .column {
@@ -101,9 +106,9 @@ header img {
   }
 .column button {
     margin: 50px;
-    background-color: rgb(254, 144, 10);;
+    background-color: rgb(10, 42, 254);;
     border-radius: 15px 50px 30px; 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Barlow;
     padding: 10px;
     box-shadow: 5px 10px 18px rgb(119, 119, 119);
@@ -142,10 +147,9 @@ header img {
 @media screen and (max-width: 700px) 
 {
     body{
-        background-image: url(img/palacep.jpg);
         background-size: cover;
         padding-left: -10%;
-        width: 100%;
+        width: 99%;
         height: 50vh;
         background-repeat: no-repeat;
    
@@ -154,7 +158,7 @@ header img {
         color: rgb(255, 255, 255);
         font-size: 35px;
         letter-spacing: 3px;
-        text-shadow:  5px 10px 18px rgb(119, 119, 119);;
+        
        
     }
     .NATIVIDAD {
@@ -171,6 +175,15 @@ header img {
         color: rgb(255, 255, 255);
         font-family: Barlow;
         letter-spacing: 3px;
+    }
+    .logo-container {
+        text-align: center;
+    }
+    
+    .logo-container img {
+        width: 40%;
+        margin-bottom: 40px;
+        margin-top: -80px; /* Adjust for smaller screens */
     }
    
     
@@ -197,7 +210,7 @@ header img {
         margin-top: 100px;
         font-family: Barlow;
         transition: o.5s;
-        text-shadow: 4px 3px 4px rgba(136, 136, 136, 1);
+        
      
     }
     header img {
@@ -210,7 +223,7 @@ header h4 {
     text-align: center;
     color: rgb(254, 144, 10);
     font-size: 12px;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
 }  
 .column h4 {
     color: rgb(254, 144, 10);;
