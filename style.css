@@ -11,7 +11,7 @@ html {
 
 
 body{
-    background-color: white;
+    background-image: url(bg.jpg);
     background-size: cover;
     padding-left: -10%;
     width: 99%;
@@ -94,9 +94,7 @@ header h4 {
     margin-top: -3vh;
     font-size: 10px;
 }
-.column img:hover {
-    width: 65%;
-}
+
 .column h2{
     font-size: 20px;
 }
@@ -106,14 +104,17 @@ header h4 {
   }
 .column button {
     margin: 50px;
-    background-color: rgb(10, 42, 254);;
+    background-color:  red;
     border-radius: 15px 50px 30px; 
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: Barlow;
     padding: 10px;
     box-shadow: 5px 10px 18px rgb(119, 119, 119);
     margin: 60px;
    
+}
+.column button span {
+    color: white;
 }
 .column button:hover {
     color: white;
@@ -189,14 +190,14 @@ header h4 {
     
     .column img {
         border-radius: 15px 50px 30px; 
-        box-shadow: 5px 10px 18px rgb(119, 119, 119);
+        box-shadow: 5px 10px 18px rgb(255, 0, 0);
         transition: 0.5s;
         padding: 5px;
     }
     .section1 img {
         width: 70%;
         border-radius: 15px 50px 30px; 
-        box-shadow: 5px 10px 18px rgb(119, 119, 119);
+        box-shadow: 5px 10px 18px rgb(255, 0, 0);
     }
     .section1 p {
         margin-left: 1cm;
